@@ -4,12 +4,12 @@
 
 // A (7,-5, 0); B (1,-1,9) -> 11.53
 
-Console.WriteLine("Введите координаты первой точки");
+Console.WriteLine("Введите координаты A");
 int x1 = Convert.ToInt32(Console.ReadLine());
 int y1 = Convert.ToInt32(Console.ReadLine());
 int z1 = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Введите координаты второй точки");
+Console.WriteLine("Введите координаты B");
 int x2 = Convert.ToInt32(Console.ReadLine());
 int y2 = Convert.ToInt32(Console.ReadLine());
 int z2 = Convert.ToInt32(Console.ReadLine());
