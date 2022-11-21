@@ -7,10 +7,13 @@
 
 // 23432 -> да
 
-int []arr = {1,2,8,2,1};
-if(arr[0] == arr[4] && arr[1] == arr [3])
-{
+
+Console.WriteLine("Введите массив чисел");
+int num = Convert.ToInt32(Console.ReadLine());
+string array = Convert.ToString(num);
+if (array[0] == array[4] && array[1] == array[3])
+ {
     Console.WriteLine("Является палиндромом.");
-}
-else
+ }
+ else
     Console.WriteLine("Не является палиндромом.");
